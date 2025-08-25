@@ -1,3 +1,35 @@
-h1 {
-    color: red;
+/*-------common style---------*/
+* {
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*-------header section style---------*/
+header {
+    background-color: #FFF8F3;
+    margin-top: 30px;
+    height: 850px;
+    background-image: url(./portfolio-resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left 90px top 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 300px;
+}
+.right-div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.btn {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 40px;
+    border-radius: 7px;
+    border: none;
 }
